@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        *{
+            font-family: Poppins;
+        }
+    </style>
+</head>
+<body class="relative bg-slate-950">
+    <nav class="z-50 fixed w-screen h-20 bg-gray-950 flex items-center justify-center">
+        <div class="w-4/5 flex flex-row items-center justify-between">
+            <div class="basis-1/4 flex flex-row items-center justify-evenly">
+                <img class=" w-14 h-14 " src="/img/home/logo.png" alt="">
+                <h1 class=" text-xl font-bold cursor-pointer text-gray-500 tracking-widest">HOME</h1>
+            </div>
+            <div class=" basis-3/4 flex">
+                <div class="basis-2/4"></div>
+                <div class="basis-2/4 flex justify-evenly">
+                    <span class=" text-lg font-medium cursor-pointer  text-gray-500 hover:text-blue-700 ">
+                        <a href="index.html">Home</a>
+                    </span>
+                    <div class="flex flex-row w-64 justify-around group cursor-pointer" id="btn">
+                        <span class=" text-lg font-medium cursor-pointer text-gray-500 group-hover:text-blue-700 ">
+                            Komputer & masyarakat
+                        </span>
+                        <svg id="arrow" class="w-3 h-7 group-hover:text-blue-700 text-gray-500 dark:text-white cursor-pointer " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 8">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7 7.674 1.3a.91.91 0 0 0-1.348 0L1 7"/>
+                        </svg>
+                        <div id="dropDown" class=" z-30 overflow-y-scroll absolute flex flex-col max-h-1/2 w-64 h-0 top-14 items-center bg-gray-950 rounded-lg">
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan1.html" target="_blank">Pertemuan 1</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan2.html" target="_blank">Pertemuan 2</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan3.html" target="_blank">Pertemuan 3</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan4.html" target="_blank">Pertemuan 4</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan5.html" target="_blank">Pertemuan 5</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan6.html" target="_blank">Pertemuan 6</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan7.html" target="_blank">Pertemuan 7</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan8.html" target="_blank">Pertemuan 8</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan9.html" target="_blank">Pertemuan 9</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan10.html" target="_blank">Pertemuan 10</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan11.html" target="_blank">Pertemuan 11</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan12.html" target="_blank">Pertemuan 12</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5" href="/public/pertemuan13.html" target="_blank">Pertemuan 13</a>
+                            <a class="text-gray-500 hover:text-blue-700 pt-5 pb-5" href="/public/pertemuan14.html" target="_blank">Pertemuan 14</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative">
+        <div id="hero" class="mx-auto flex h-screen items-center justify-between w-4/5 "> 
+            <div class=""> <!-- deskripsi -->
+                <div class="flex items-center">
+                    <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                        <line x1="0" y1="10px" x2="10px" y2="10px"/>
+                    </svg>
+                    <h2 class="uppercase text-xl font-light tracking-spasi text-gray-500">
+                        my name is
+                    </h2>
+                </div>
+                <h3 class="font-bold text-4xl">
+                    <span class="text-transparent bg-gradient-to-r from-slate-500 via-white to-slate-500 bg-clip-text ">Firmansyah Surya Kusuma</span>
+                </h3>
+                <p class="font-light text-gray-500">
+                    Jakarta Utara, DKI Jakarta
+                </p>
+                <div class="flex flex-row mt-5 space-x-3"> 
+                    <a href="http://www.instagram.com/kusumasry_04/" target="_blank"><img class="w-6 h-6" src="/img/home/Instagram.svg" alt=""></a>
+                    <a href="https://github.com/Kusumasry04" target="_blank"><img class="w-6 h-6"src="/img/home/Github.svg" alt=""></a>
+                    <a href="http://www.linkedin.com/in/firmansyah-surya-b561141bb" target="_blank"><img class="w-6 h-6"src="/img/home/Linkedin.svg" alt=""></a>
+                </div>
+            </div>
+            <img class="rounded-full" src="/img/home/Hero.png" alt="">                
+            <div class="absolute w-80 h-80 flex items-center rounded-full bg-gradient-to-r from-yellow-500 via-pink-700 to-purple-900 right-32 -z-10 animate-spin"></div>
+        </div>
+    </main>
+
+    <script src="/javascript.js"></script>
+</body>
+
+</html>
